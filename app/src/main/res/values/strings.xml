@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">AppOne</string>
+    <string name="text2">Let\'s walk towards success</string>
+    <string name="welcome">Welcome Developers!!</string>
+    <string name="text3">making android app is fun</string>
+    <string name="title_activity_main2">MainActivity2</string>
+    <string name="title_activity_relative">RelativeActivity</string>
+    <string name="title_activity_relative_uiactivity">RelativeUIActivity</string>
+    <string name="title_activity_linear_layout">LinearLayoutActivity</string>
+    <string name="title_activity_constraint_layout">ConstraintLayoutActivity</string>
+</resources>

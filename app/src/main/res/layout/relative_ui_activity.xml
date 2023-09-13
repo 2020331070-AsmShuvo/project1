@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:layout_margin="30dp"
+        android:src="@drawable/facebooklogo" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="Email"
+        android:inputType="textEmailAddress"
+        android:minHeight="48dp"
+        android:textColorHint="#CAB2B2" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextEmailAddress"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:ems="10"
+        android:hint="P.assword"
+        android:inputType="textPassword"
+        android:minHeight="48dp"
+        android:textColorHint="#CAB2B2" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/editTextTextPassword"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:background="#4267B2 "
+        android:text="Login"
+        android:textAllCaps="false"
+
+        />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:layout_marginRight="50dp"
+        android:layout_below="@id/button"
+        android:text="Forgot password?"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#4267B2"
+
+        />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Create new account"
+        android:layout_below="@id/textView2"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:background="#FF9800"
+        android:layout_marginTop="30dp"
+        android:textAllCaps="false"
+
+        />
+
+
+</RelativeLayout>
